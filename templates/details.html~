@@ -1,0 +1,29 @@
+<html>
+<head>>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='index.css') }}">
+<link rel=stylesheet type=text/javascript href="{{ url_for('static', filename='index.js') }}">
+<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='demo.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css') }}" />
+</head>
+
+<body  background="{{ url_for('static', filename='back_1.jpg') }}" >
+<div style="position:fixed; top:0%; left :15%; width:70%; height:100%; background-color:white; opacity:0.2; z-index:1; opacity:0.3;">
+</div>
+
+<div style="position:fixed; top:0%; width:100%; height:4%; z-index:30; background-color:black; color:white; font-size:20px; display:block; padding:10px; font-family:Lucida Console, Monaco, monospace">
+<text style="position:fixed; left:15%">Tweeter Profile Analyzer</text>
+</div>
+
+
+
+<text style="position:fixed; top:95%; font-family:Georgia, serif; left:0%; z-index:40; background-color:black; width:100%; text-align:center; color:silver; height:5%; display:block; padding:3px; opacity:0.9;">
+Created by : Make A Difference.
+</text>
+
+
+
+</body>
+</html>
