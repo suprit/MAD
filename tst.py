@@ -1,7 +1,5 @@
 from flask import Flask, request, session, g, redirect, url_for, \
 abort, render_template, flash
-from github2.client import Github
-github = Github()
 
 
 app=Flask(__name__)
@@ -17,8 +15,6 @@ def home():
 	username=request.form['one_user']
 
 
-	#github
-	#print len(github.repos.watchers("ask/python-github2"))
 	
 	#auth = tweepy.BasicAuthHandler(username, password)
 	#api = tweepy.API(auth)
